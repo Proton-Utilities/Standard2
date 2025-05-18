@@ -1,6 +1,6 @@
 # cede.decompress
 
-Decompresses compressed data using a decompression algorithim.
+Decompresses compressed data using a decompression algorithm.
 
 ## How to use
 
@@ -8,7 +8,6 @@ Decompresses compressed data using a decompression algorithim.
 function cede.decompress(
   algorithm: number,
   compressedData: string,
-  ...options: unknown[]
 ): string
 ```
 
@@ -20,15 +19,29 @@ function cede.decompress(
 local cede = include("cede")
 local codec = include("codec")
 
-local decoded = codec.decode(
-    "base64"
-    "BCJNGEBw3w0AAIBIZWxsbywgV29ybGQhAAAAAA=="
-)
+local decoded = codec.decode("base64", "BCJNGEBw3w0AAIBIZWxsbywgV29ybGQhAAAAAA==")
 
-local lz4Decompressed = cede.decompress(
-    "lz4", 
-    decoded
-)
+print(cede.decompress("lz4", decoded)) -- Hello, World!
+```
 
-print(encoded) -- Hello, World!
+### zstd
+
+```lua
+local cede = include("cede")
+local codec = include("codec")
+
+local decoded = codec.decode("base64", "KLUv/SANaQAASGVsbG8sIFdvcmxkIQ==")
+
+print(cede.decompress("zstd", decoded)) -- Hello, World!
+```
+
+### deflate
+
+```lua
+local cede = include("cede")
+local codec = include("codec")
+
+local decoded = codec.decode("base64", "80jNycnXUQjPL8pJUQQA==")
+
+print(cede.decompress("deflate", decoded)) -- Hello, World!
 ```
