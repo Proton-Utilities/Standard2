@@ -4,9 +4,15 @@ Standard2 is a naming initiative to make custom environments feel more intuitive
 
 ## How to use
 
-To import libaries, use the `import` global.
+```typescript
+function import(
+  library: string,
+): Record<string, any>
+```
 
-### Example
+## Example
+
+> Use `import`
 
 ```lua
 local CeDe = import("cede")
