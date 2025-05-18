@@ -1,6 +1,6 @@
 # Standard2
 
-Standard2 is a naming initiative to make custom environment's feel more intuitive. It's intention is to unify the ex
+Standard2 is a naming initiative to make custom environments feel more intuitive. It's intention is to unify the ex
 
 ## How to use
 
