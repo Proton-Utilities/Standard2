@@ -20,8 +20,8 @@ SerDe helps in the process of data persistence, mainly between the network bound
 SerDe is **not** responsible for:
 
 - **Compression** *(e.g., lz4, zlib)*
-  - Use the [cede](<../cede/README.md>) library
+  - Use the [cede](<../CeDe/README.md>) library
 - **Encoding** *(e.g., base64, hex)*
-  - Use the [codec](<../codec/README.md>) library
+  - Use the [codec](<../Codec/README.md>) library
 - **Cryptography** *(e.g., hashing, encryption)*
-  - Use the [crypto](<../crypto/README.md>) library
+  - Use the [crypto](<../Crypto/README.md>) library

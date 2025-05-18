@@ -1,0 +1,47 @@
+site_name: Standard2
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+
+  features:
+    - navigation.instant
+    # - navigation.instant.prefetch # experimental, prefetches content on link hover. might be unnecessary data usage
+    - navigation.instant.progress
+    #- navigation.instant.preview # please check this functionality
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes # allows you to provide an index file for each section
+    - navigation.top
+    - navigation.footer
+    # - navigation.prune
+
+    - toc.follow
+
+    - search.suggest
+    #- search.highlight
+
+    - content.action.edit
+    - content.action.view
+
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition

@@ -1,18 +1,7 @@
-# import
+# About
 
-`import` is the base function to get all libraries.
+Standard2 is a naming initiative to make custom environments feel more intuitive. The current environment of executors are very inefficient:
 
-## How to use
-
-```typescript
-function import(
-  library: string,
-): Record<string, any>
-```
-
-## Example
-
-```lua
-local CeDe = import("cede")
-CeDe.compress("lz4", "Hello, World!")
-```
+- **Automatically added environment standards** - Currently, every available exploit automatically adds functions and libraries, this behavior is unintuitive, and can lead to unintentional naming conflicts.
+- **Various aliases** - Due to the amount of exploits to have come out over several years, variations in naming schemes occur, which creates even more environment clutter, and creates confusion among developers.
+- **Incorrect namespacing** - For example, base64 compress/decompress dosen't belong in the crypt library, yet in almost every executor it is. This is just one instance of incompetency which has added up over the years.
