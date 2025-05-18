@@ -5,7 +5,7 @@ Compresses data using a compression algorithm.
 ## How to use
 
 ```typescript
-function compress(
+function cede.compress(
   algorithm: number,
   input: string,
   ...options: unknown[]
