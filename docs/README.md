@@ -1,10 +1,8 @@
-# Standard2
+# import
 
-Standard2 is a naming initiative to make custom environments feel more intuitive. It's intention is to unify the ex
+`import` is the base function to get all libraries.
 
 ## How to use
-
-> `import` is the base function to get all libraries.
 
 ```typescript
 function import(
