@@ -4,6 +4,8 @@ Standard2 is a naming initiative to make custom environments feel more intuitive
 
 ## How to use
 
+> `import` is the base function to get all libraries.
+
 ```typescript
 function import(
   library: string,
@@ -11,8 +13,6 @@ function import(
 ```
 
 ## Example
-
-> Use `import`
 
 ```lua
 local CeDe = import("cede")
