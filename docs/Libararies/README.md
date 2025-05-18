@@ -1,11 +1,11 @@
-# import
+# include
 
-`import` is the base function to get all libraries.
+`include` is the base function to fetch all libraries.
 
 ## How to use
 
 ```typescript
-function import(
+function include(
   library: string,
 ): Record<string, any>
 ```
@@ -13,6 +13,6 @@ function import(
 ## Example
 
 ```lua
-local CeDe = import("cede")
+local CeDe = include("cede")
 CeDe.compress("lz4", "Hello, World!")
 ```
