@@ -2,12 +2,12 @@
 
 Decompresses compressed data using a decompression algorithm.
 
-## How to use
+## Usage
 
 ```typescript
-function cede.decompress(
+declare function decompress(
   algorithm: number,
-  compressedData: string,
+  compressedData: string
 ): string
 ```
 

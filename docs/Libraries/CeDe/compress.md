@@ -2,10 +2,10 @@
 
 Compresses data using a compression algorithm.
 
-## How to use
+## Usage
 
 ```typescript
-function cede.compress(
+declare function compress(
   algorithm: string,
   plainData: string
 ): string

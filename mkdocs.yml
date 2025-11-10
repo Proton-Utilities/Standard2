@@ -1,37 +1,8 @@
 site_name: S2
-theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: deep orange
 
-  features:
-    - navigation.instant
-    # - navigation.instant.prefetch # experimental, prefetches content on link hover. might be unnecessary data usage
-    - navigation.instant.progress
-    #- navigation.instant.preview # please check this functionality
-    - navigation.tracking
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.indexes # allows you to provide an index file for each section
-    - navigation.top
-    - navigation.footer
-    # - navigation.prune
-
-    - toc.follow
-
-    - search.suggest
-    #- search.highlight
-
-    - content.action.edit
-    - content.action.view
-
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
+repo_name: Proton-Utilities/Standard2
+repo_url: https://github.com/Proton-Utilities/Standard2
+edit_uri: edit/main/docs
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -45,3 +16,67 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - admonition
+  - attr_list
+
+plugins:
+- search
+- awesome-nav
+
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    - toc.follow
+
+    - search.suggest
+
+    - content.action.edit
+    - content.action.view
+
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Proton-Utilties/Standard2
+
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/nEF8hyfvrc
+extra_css:
+  - assets/styles/extra.css

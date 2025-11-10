@@ -13,7 +13,7 @@
     - **Encoding** *(e.g., base64, hex)*
         - Use the [codec](<../Codec/README.md>) library
     - **Cryptography** *(e.g., hashing, encryption)*
-        - Use the [crypto](<../Crypto/README.md>) library
+        - Use the [crypto](<../Crypt/README.md>) library
 
 ## Purpose
 

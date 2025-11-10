@@ -2,7 +2,7 @@
 
 `include` is the base function to fetch all libraries.
 
-## How to use
+## Usage
 
 ```typescript
 function include(

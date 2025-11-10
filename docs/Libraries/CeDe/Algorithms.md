@@ -4,9 +4,9 @@ The **CeDe** library supports multiple compression algorithms, each with their o
 
 | Algorithm | Compression Ratio | Compression Speed | Decompression Speed |
 | - | - | - | - |
-| **[lz4](https://github.com/lz4/lz4)** | Low | Fastest | Fastest |
-| **[zstd](https://github.com/facebook/zstd)** | Highest | Fast | Fast |
-| **[deflate](https://www.pkware.com)** | High | Fast | Medium |
+| **[`lz4`](https://github.com/lz4/lz4)** | Low | Fastest | Fastest |
+| **[`zstd`](https://github.com/facebook/zstd)** | Highest | Fast | Fast |
+| **[`deflate`](https://www.pkware.com)** | High | Fast | Medium |
 
 ## Use cases
 
